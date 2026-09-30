@@ -148,10 +148,9 @@ capstone-2026-team-26/
 │   │   ├── 2026전기_착수보고서_26_Wi-Finder.pdf
 │   │   └── 2026전기_최종보고서_26_Wi-Finder.pdf
 │   ├── 02.포스터/
-│   │   └── 포스터파일.pdf
+│   │   └── 2026전기_26_Wi-Finder_포스터.pdf
 │   ├── 03.발표자료/
-│   │   ├── 발표자료.pdf
-│   │   └── 발표자료.pptx
+│   │   └── 2026전기_26_Wi-Finder_최종발표.pdf
 │   └── images/
 │       ├── system_architecture.png                # 시스템 아키텍처 다이어그램 (Fig. 3-43)
 │       └── scenario2_layout.png                   # 시나리오 2 실험 구조 다이어그램 (Fig. 3-20)
@@ -199,6 +198,10 @@ capstone-2026-team-26/
    ```bash
    python server.py --host 0.0.0.0 --port 8000
    ```
+3. Unity 3D 관제 클라이언트([indoor-identification-system](https://github.com/Nuna30/indoor-identification-system)) 저장소를 다운로드 합니다:
+   ```bash
+   git clone https://github.com/Nuna30/indoor-identification-system.git
+   ```
 
 #### 3) Unity 3D 관제 클라이언트 실행
 1. Unity Hub에서 `indoor-identification-system` 프로젝트를 엽니다.
@@ -225,8 +228,9 @@ capstone-2026-team-26/
 ## 6. 소개 자료 및 시연 영상
 
 ### 6.1. 프로젝트 소개 자료
-- **프로젝트 발표 자료 (PDF)**: [docs/03.발표자료/발표자료.pdf](file:///docs/03.발표자료/발표자료.pdf)
-- **포스터 파일**: [docs/02.포스터/포스터파일.pdf](file:///docs/02.포스터/포스터파일.pdf)
+- **프로젝트 최종 발표 자료 (PDF)**: [docs/03.발표자료/2026전기_26_Wi-Finder_최종발표.pdf](docs/03.발표자료/2026전기_26_Wi-Finder_최종발표.pdf)
+- **포스터 파일 (PDF)**: [docs/02.포스터/2026전기_26_Wi-Finder_포스터.pdf](docs/02.포스터/2026전기_26_Wi-Finder_포스터.pdf)
+- **최종 보고서 (PDF)**: [docs/01.보고서/2026전기_최종보고서_26_Wi-Finder.pdf](<docs/01.보고서/2026전기_최종보고서_26_Wi-Finder_CSI 분석을 통한 유니티 기반 실내 신원 파악 시스템 구현.pdf>)
 
 ### 6.2. 시연 영상
 *(시연 영상 링크 추가 예정)*
